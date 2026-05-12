@@ -70,7 +70,7 @@ const About = () => (
             { role: 'Treasurer', name: 'Lawson Kievit', url: 'https://res.cloudinary.com/dbc9mudek/image/upload/v1778539454/lawson_1_gd7aah.png' },
             { role: 'Induction Coordinator', name: 'Jaylin Wilson', url: 'https://res.cloudinary.com/dbc9mudek/image/upload/v1778539814/Screenshot_2026-05-11_at_6.50.07_PM_n1gfzj.png' },
             { role: 'Service Hours Coordinator', name: 'Camille Walker', url: 'https://res.cloudinary.com/dbc9mudek/image/upload/v1778539457/camille_1_dllujh.png' },
-            { role: 'Communications Team', name: 'Greyson Clymer & Hutton Badrock', url: 'https://res.cloudinary.com/dbc9mudek/image/upload/v1778539457/greysonhutton_ic26ay.jpg' },
+            { role: 'Communications Team', name: 'Greyson Clymer & Hutton Badrock', url: 'https://res.cloudinary.com/dbc9mudek/image/upload/v1778621119/greysonhuttonnew_ujeo6i.jpg' },
           ].map((o) => <OfficerCard key={o.role} {...o} />)}
         </div>
         <div style={{ textAlign: 'center', marginTop: 32, fontFamily: "'Inter', sans-serif", fontSize: 12, color: 'var(--muted)', letterSpacing: '0.08em' }}>
