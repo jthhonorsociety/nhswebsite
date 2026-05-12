@@ -16,11 +16,7 @@
 
 * { box-sizing: border-box; margin: 0; padding: 0; }
 
-html {
-  background: var(--navy-ink);
-}
-
-body {
+html, body {
   background: var(--paper);
   color: var(--ink);
   font-family: 'Source Serif Pro', Georgia, serif;

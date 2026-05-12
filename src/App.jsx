@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { Nav, Footer } from './components/Nav';
 import Home from './pages/Home';
 import About from './pages/About';
@@ -14,6 +14,20 @@ const App = () => {
     setPage(target);
     window.scrollTo({ top: 0, behavior: 'instant' });
   };
+
+  useEffect(() => {
+    const html = document.documentElement;
+    const onScroll = () => {
+      const atBottom = window.scrollY + window.innerHeight >= html.scrollHeight - 2;
+      html.style.background = atBottom ? '#0e1a36' : '#fdfbf6';
+    };
+    window.addEventListener('scroll', onScroll, { passive: true });
+    onScroll();
+    return () => {
+      window.removeEventListener('scroll', onScroll);
+      html.style.background = '';
+    };
+  }, [page]);
 
   const sections = {
     pillars: true,
