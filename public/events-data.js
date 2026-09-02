@@ -1,7 +1,61 @@
 // events-data.js ? Auto-generated. Do not edit manually.
-// Last updated: 2026-08-25T22:16:06.096Z
+// Last updated: 2026-08-25T22:17:01.503Z
 
 var UPCOMING_EVENTS = [
+  {
+    "title": "Test",
+    "day": "19",
+    "mo": "OCTOBER",
+    "detail": "test",
+    "spots": "20",
+    "url": "https://apple.com",
+    "dateNote": ""
+  },
+  {
+    "title": "Test",
+    "day": "19",
+    "mo": "OCTOBER",
+    "detail": "test",
+    "spots": "20",
+    "url": "https://apple.com",
+    "dateNote": ""
+  },
+  {
+    "title": "Test",
+    "day": "19",
+    "mo": "OCTOBER",
+    "detail": "test",
+    "spots": "20",
+    "url": "https://apple.com",
+    "dateNote": ""
+  },
+  {
+    "title": "Test",
+    "day": "19",
+    "mo": "OCTOBER",
+    "detail": "test",
+    "spots": "20",
+    "url": "https://apple.com",
+    "dateNote": ""
+  },
+  {
+    "title": "Test",
+    "day": "19",
+    "mo": "OCTOBER",
+    "detail": "test",
+    "spots": "20",
+    "url": "https://apple.com",
+    "dateNote": ""
+  },
+  {
+    "title": "Test",
+    "day": "19",
+    "mo": "OCTOBER",
+    "detail": "test",
+    "spots": "20",
+    "url": "https://apple.com",
+    "dateNote": ""
+  },
   {
     "title": "Test",
     "day": "19",
@@ -14,6 +68,48 @@ var UPCOMING_EVENTS = [
 ];
 
 var RECURRING_EVENTS = [
+  {
+    "title": "Holly Tree Car Duty",
+    "dates": "12345678901234567890-",
+    "detail": "yada yada",
+    "spots": "123",
+    "url": "https://apple.com"
+  },
+  {
+    "title": "Holly Tree Car Duty",
+    "dates": "12345678901234567890-",
+    "detail": "yada yada",
+    "spots": "123",
+    "url": "https://apple.com"
+  },
+  {
+    "title": "Holly Tree Car Duty",
+    "dates": "12345678901234567890-",
+    "detail": "yada yada",
+    "spots": "123",
+    "url": "https://apple.com"
+  },
+  {
+    "title": "Holly Tree Car Duty",
+    "dates": "12345678901234567890-",
+    "detail": "yada yada",
+    "spots": "123",
+    "url": "https://apple.com"
+  },
+  {
+    "title": "Holly Tree Car Duty",
+    "dates": "12345678901234567890-",
+    "detail": "yada yada",
+    "spots": "123",
+    "url": "https://apple.com"
+  },
+  {
+    "title": "Holly Tree Car Duty",
+    "dates": "12345678901234567890-",
+    "detail": "yada yada",
+    "spots": "123",
+    "url": "https://apple.com"
+  },
   {
     "title": "Holly Tree Car Duty",
     "dates": "12345678901234567890-",
