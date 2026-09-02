@@ -171,7 +171,7 @@ const Volunteer = ({ onNavigate }) => {
             <div style={{ background: 'rgba(255,255,255,0.08)', borderTop: '2px solid var(--gold-bright)', padding: '20px 24px' }}>
               <div className="eyebrow on-dark">Spring Semester</div>
               <div style={{ fontFamily: "'Playfair Display', serif", fontSize: 28, color: 'rgba(255,255,255,0.45)', marginTop: 8, lineHeight: 1.1 }}>N/A</div>
-              <div style={{ fontSize: 13, color: 'rgba(255,255,255,0.65)', marginTop: 8 }}>No spring semester deadline this year.</div>
+              <div style={{ fontSize: 13, color: 'rgba(255,255,255,0.65)', marginTop: 8 }}>No spring semester deadline has been set yet.</div>
             </div>
           </div>
         </div>
