@@ -1,6 +1,6 @@
 import PageHero from '../components/PageHero';
 
-const EventCard = ({ title, day, mo, detail, spots, url, url2, dateNote }) => (
+const EventCard = ({ title, day, mo, detail, spots, url, dateNote }) => (
   <div style={{ background: 'var(--paper)', border: '1px solid var(--rule)', display: 'flex', gap: 0 }}>
     <div style={{ background: 'var(--navy)', color: 'white', minWidth: 84, display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', padding: '20px 12px', flexShrink: 0 }}>
       <div style={{ fontFamily: "'Playfair Display', serif", fontSize: 40, fontWeight: 700, lineHeight: 1 }}>{day}</div>
@@ -9,11 +9,10 @@ const EventCard = ({ title, day, mo, detail, spots, url, url2, dateNote }) => (
     </div>
     <div style={{ padding: '20px 24px', flex: 1 }}>
       <div style={{ fontFamily: "'Playfair Display', serif", fontSize: 18, fontWeight: 700, color: 'var(--navy-ink)', marginBottom: 8 }}>{title}</div>
-      <div style={{ fontFamily: "'Inter', sans-serif", fontSize: 14, color: 'var(--muted)', lineHeight: 1.6, marginBottom: spots || url || url2 ? 14 : 0 }}>{detail}</div>
+      <div style={{ fontFamily: "'Inter', sans-serif", fontSize: 14, color: 'var(--muted)', lineHeight: 1.6, marginBottom: spots || url ? 14 : 0 }}>{detail}</div>
       <div style={{ display: 'flex', gap: 16, alignItems: 'center', flexWrap: 'wrap' }}>
         {spots && <div style={{ fontFamily: "'Inter', sans-serif", fontSize: 11, fontWeight: 600, letterSpacing: '0.14em', textTransform: 'uppercase', color: 'var(--gold)' }}>{spots} spots remaining</div>}
         {url && <a href={url} target="_blank" rel="noopener noreferrer" className="btn btn-navy" style={{ padding: '10px 18px', fontSize: 11 }}>Sign Up →</a>}
-        {url2 && <a href={url2} target="_blank" rel="noopener noreferrer" className="btn btn-outline" style={{ padding: '10px 18px', fontSize: 11 }}>More Info →</a>}
       </div>
     </div>
   </div>
@@ -98,7 +97,7 @@ const Events = ({ onNavigate }) => {
           <p style={{ fontSize: 14, color: 'rgba(255,255,255,0.72)', lineHeight: 1.6, marginBottom: 20, maxWidth: 560 }}>
             Signing up does not log your hours. You must submit the electronic Validation Form within 48 hours of completing any event — photo evidence required.
           </p>
-          <a href="https://docs.google.com/forms/d/e/1FAIpQLSefh5iEXfOMzuLLUAtlXQNIAgr6fRRTHN10nE8XH--9eA9v7w/viewform"
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLScUIrWWqzVdeAHumUk542qSpsuQGpCcp4OUkuavulrDlzsB7g/viewform?usp=header"
             target="_blank" rel="noopener noreferrer" className="btn btn-gold" style={{ padding: '12px 24px', fontSize: 11 }}>
             Open Validation Form →
           </a>

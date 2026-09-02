@@ -80,7 +80,7 @@ const Volunteer = ({ onNavigate }) => {
                 Submit the electronic validation form within 48 hours of completing any service event. Photo evidence required — no exceptions.
               </p>
             </div>
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLSefh5iEXfOMzuLLUAtlXQNIAgr6fRRTHN10nE8XH--9eA9v7w/viewform"
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLScUIrWWqzVdeAHumUk542qSpsuQGpCcp4OUkuavulrDlzsB7g/viewform?usp=header"
               target="_blank" rel="noopener noreferrer" className="btn btn-navy" style={{ padding: '14px 24px', alignSelf: 'flex-start' }}>
               Open Validation Form →
             </a>
@@ -126,7 +126,7 @@ const Volunteer = ({ onNavigate }) => {
                 'Submit the electronic Validation Form within 48 hours of completion.',
               ]}
               warning="Hours from unapproved events will not be accepted — no exceptions."
-              cta={{ href: 'https://docs.google.com/forms/d/e/1FAIpQLSdSLh8WSBPCpgwEx9ix2_SA_XXSWirfh_YH6AK1xolAACK3Cw/viewform', label: 'Open Unsponsored Approval Form ↗' }} />
+              cta={{ href: 'https://docs.google.com/forms/d/e/1FAIpQLSfsqx0a4zJvnvELBqAAWlIgGaGhFw-5yPvpQ_RZ6_0CJjtjvg/viewform?usp=header', label: 'Open Unsponsored Approval Form ↗' }} />
           )}
 
           {tab === 'Individual Project' && (
@@ -139,7 +139,7 @@ const Volunteer = ({ onNavigate }) => {
                 'Submit the project proposal to the executive committee for review.',
                 'Lead the event — and earn additional hours for organizing, where justifiable.',
               ]}
-              cta={{ href: 'https://docs.google.com/forms/d/e/1FAIpQLSeRm56JFBzJg-mvex7Ew-8ATsjKdGh87_9Rxygd3UMz52u6FQ/viewform', label: 'Open Individual Service Project Form ↗' }} />
+              cta={{ href: 'https://docs.google.com/forms/d/e/1FAIpQLScLo8HwK8lfKq0IcySUL47bRid1J9Wt-naiTiB1ClmEcjVbxw/viewform?usp=header', label: 'Open Individual Service Project Form ↗' }} />
           )}
 
           {tab === 'Validation' && (
@@ -152,7 +152,7 @@ const Volunteer = ({ onNavigate }) => {
                 { kicker: 'Note', title: 'No Double-Dipping', meta: 'Hours used for NHS cannot be counted toward another club, organization, or honor society' },
               ]}
               warning="If a form is lost and you do not have a digital record, your service hours will not be accepted. It is your responsibility to keep records."
-              cta={{ href: 'https://docs.google.com/forms/d/e/1FAIpQLSefh5iEXfOMzuLLUAtlXQNIAgr6fRRTHN10nE8XH--9eA9v7w/viewform', label: 'Open Validation Form ↗' }} />
+              cta={{ href: 'https://docs.google.com/forms/d/e/1FAIpQLScUIrWWqzVdeAHumUk542qSpsuQGpCcp4OUkuavulrDlzsB7g/viewform?usp=header', label: 'Open Validation Form ↗' }} />
           )}
         </div>
       </section>

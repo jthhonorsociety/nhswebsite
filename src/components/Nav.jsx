@@ -203,9 +203,9 @@ export const Footer = ({ onNavigate }) => (
 
         <FooterCol title="Resources" links={[
           { label: 'New Member Application', href: 'https://docs.google.com/forms/d/e/1FAIpQLSdKP4upRu9vt9dAIlTWX7mMUwR_GlhCT8rmG9WxK411pRIIBw/closedform?pli=1' },
-          { label: 'Validation Form', href: 'https://docs.google.com/forms/d/e/1FAIpQLSefh5iEXfOMzuLLUAtlXQNIAgr6fRRTHN10nE8XH--9eA9v7w/viewform' },
-          { label: 'Unsponsored Hours Form', href: 'https://docs.google.com/forms/d/e/1FAIpQLSdSLh8WSBPCpgwEx9ix2_SA_XXSWirfh_YH6AK1xolAACK3Cw/viewform' },
-          { label: 'Individual Project Form', href: 'https://docs.google.com/forms/d/e/1FAIpQLSeRm56JFBzJg-mvex7Ew-8ATsjKdGh87_9Rxygd3UMz52u6FQ/viewform' },
+          { label: 'Validation Form', href: 'https://docs.google.com/forms/d/e/1FAIpQLScUIrWWqzVdeAHumUk542qSpsuQGpCcp4OUkuavulrDlzsB7g/viewform?usp=header' },
+          { label: 'Unsponsored Hours Form', href: 'https://docs.google.com/forms/d/e/1FAIpQLSfsqx0a4zJvnvELBqAAWlIgGaGhFw-5yPvpQ_RZ6_0CJjtjvg/viewform?usp=header' },
+          { label: 'Individual Project Form', href: 'https://docs.google.com/forms/d/e/1FAIpQLScLo8HwK8lfKq0IcySUL47bRid1J9Wt-naiTiB1ClmEcjVbxw/viewform?usp=header' },
           { label: 'Hoggard NHS Bylaws', href: 'https://docs.google.com/document/d/1vhIGKKLhcIoc7pW50SB5KiyrXypEz_BXvfccOZEg8M4/edit?usp=sharing' },
         ]} />
 
