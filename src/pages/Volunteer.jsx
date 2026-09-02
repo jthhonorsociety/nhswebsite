@@ -114,6 +114,13 @@ const Volunteer = ({ onNavigate }) => {
                 'Submit the electronic Validation Form within 48 hours of completion.',
               ]}
               warning="You must still submit a validation form for every sponsored event you attend — signing up alone does not log your hours." />
+            <div style={{ marginTop: 24 }}>
+              <a href="https://docs.google.com/forms/d/e/1FAIpQLSfL0ufIuCNC8CKBPYTWfmknIhto9IcHR83bCUWk-SNVtUXY_A/viewform?usp=header"
+                target="_blank" rel="noopener noreferrer" className="btn btn-outline"
+                style={{ fontSize: 11, padding: '10px 18px' }}>
+                Event Interest Form ↗
+              </a>
+            </div>
           )}
 
           {tab === 'Unsponsored' && (
