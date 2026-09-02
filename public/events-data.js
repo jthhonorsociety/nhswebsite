@@ -1,17 +1,7 @@
 // events-data.js ? Auto-generated. Do not edit manually.
-// Last updated: 2026-08-28T12:14:18.364Z
+// Last updated: 2026-08-28T19:56:31.106Z
 
-var UPCOMING_EVENTS = [
-  {
-    "title": "asdfg11wertgh",
-    "day": "sdfgh",
-    "mo": "SDFG",
-    "detail": "asdfg",
-    "spots": "sedf",
-    "url": "https://apple.com",
-    "dateNote": ""
-  }
-];
+var UPCOMING_EVENTS = [];
 
 var RECURRING_EVENTS = [
   {
