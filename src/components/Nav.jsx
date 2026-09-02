@@ -60,11 +60,6 @@ export const Nav = ({ active, onNavigate }) => {
               >{t}</a>
             );
           })}
-          <button onClick={() => onNavigate('Events')}
-            className="btn btn-gold"
-            style={{ marginLeft: 12, padding: '10px 16px', fontSize: 11, border: 'none', cursor: 'pointer' }}>
-            Sign Up to Serve
-          </button>
         </nav>
 
         {/* Hamburger button */}
@@ -119,11 +114,6 @@ export const Nav = ({ active, onNavigate }) => {
               </a>
             );
           })}
-          <button onClick={() => handleNav('Events')}
-            className="btn btn-gold"
-            style={{ marginTop: 16, width: '100%', justifyContent: 'center', border: 'none', cursor: 'pointer' }}>
-            Sign Up to Serve
-          </button>
         </div>
       )}
     </header>
