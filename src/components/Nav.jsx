@@ -60,12 +60,11 @@ export const Nav = ({ active, onNavigate }) => {
               >{t}</a>
             );
           })}
-          <a href="https://www.signupgenius.com/go/10C094BACAD2CA3F9CF8-50931733-nhsservice#/"
-            target="_blank" rel="noopener noreferrer"
+          <button onClick={() => onNavigate('Events')}
             className="btn btn-gold"
-            style={{ marginLeft: 12, padding: '10px 16px', fontSize: 11 }}>
+            style={{ marginLeft: 12, padding: '10px 16px', fontSize: 11, border: 'none', cursor: 'pointer' }}>
             Sign Up to Serve
-          </a>
+          </button>
         </nav>
 
         {/* Hamburger button */}
@@ -120,12 +119,11 @@ export const Nav = ({ active, onNavigate }) => {
               </a>
             );
           })}
-          <a href="https://www.signupgenius.com/go/10C094BACAD2CA3F9CF8-50931733-nhsservice#/"
-            target="_blank" rel="noopener noreferrer"
+          <button onClick={() => handleNav('Events')}
             className="btn btn-gold"
-            style={{ marginTop: 16, width: '100%', justifyContent: 'center' }}>
+            style={{ marginTop: 16, width: '100%', justifyContent: 'center', border: 'none', cursor: 'pointer' }}>
             Sign Up to Serve
-          </a>
+          </button>
         </div>
       )}
     </header>

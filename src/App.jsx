@@ -4,6 +4,7 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Membership from './pages/Membership';
 import Volunteer from './pages/Volunteer';
+import Events from './pages/Events';
 import Meetings from './pages/Meetings';
 import Contact from './pages/Contact';
 
@@ -43,7 +44,8 @@ const App = () => {
         {page === 'Home' && <Home onNavigate={handleNavigate} sections={sections} />}
         {page === 'About' && <About />}
         {page === 'Membership' && <Membership />}
-        {page === 'Volunteer' && <Volunteer />}
+        {page === 'Volunteer' && <Volunteer onNavigate={handleNavigate} />}
+        {page === 'Events' && <Events onNavigate={handleNavigate} />}
         {page === 'Meetings' && <Meetings />}
         {page === 'Contact' && <Contact />}
       </div>

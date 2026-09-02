@@ -48,7 +48,7 @@ const TabBlock = ({ title, body, items, steps, warning, cta }) => (
   </div>
 );
 
-const Volunteer = () => {
+const Volunteer = ({ onNavigate }) => {
   const [tab, setTab] = useState('Sponsored');
 
   return (
@@ -67,10 +67,9 @@ const Volunteer = () => {
                 Browse and reserve your spot for upcoming chapter events. Sponsored hours are pre-approved.
               </p>
             </div>
-            <a href="https://www.signupgenius.com/go/10C094BACAD2CA3F9CF8-50931733-nhsservice#/"
-              target="_blank" rel="noopener noreferrer" className="btn btn-gold" style={{ padding: '14px 24px', alignSelf: 'flex-start' }}>
-              Open SignUpGenius →
-            </a>
+            <button onClick={() => onNavigate('Events')} className="btn btn-gold" style={{ padding: '14px 24px', alignSelf: 'flex-start' }}>
+              View Events &amp; Sign Up →
+            </button>
           </div>
 
           <div style={{ background: 'var(--parchment)', border: '1px solid var(--rule)', borderTop: '3px solid var(--gold)', padding: '40px 32px', display: 'flex', flexDirection: 'column', gap: 16 }}>
@@ -107,14 +106,14 @@ const Volunteer = () => {
 
           {tab === 'Sponsored' && (
             <TabBlock title="Chapter-Sponsored Service"
-              body="Sponsored events are organized by the chapter and are pre-approved for service hours. The full list of upcoming events lives on SignUpGenius — sign up early, as popular events fill quickly."
+              body="Sponsored events are organized by the chapter and are pre-approved for service hours. View the full list of upcoming events and reserve your spot — popular events fill quickly."
               steps={[
-                'Open the chapter SignUpGenius to view all currently open events.',
+                'Open the chapter events page to view all currently open opportunities.',
                 'Reserve your spot for any event that fits your schedule — sponsored hours are pre-approved.',
                 'Attend the event and take a clear photograph of yourself participating.',
                 'Submit the electronic Validation Form within 48 hours of completion.',
               ]}
-              warning="You must still submit a validation form for every sponsored event you attend — sign-up alone does not log your hours." />
+              warning="You must still submit a validation form for every sponsored event you attend — signing up alone does not log your hours." />
           )}
 
           {tab === 'Unsponsored' && (
@@ -162,19 +161,34 @@ const Volunteer = () => {
       <section className="pad-sm-top">
         <div style={{ maxWidth: 1100, margin: '0 auto', background: 'var(--navy-ink)', color: 'white', padding: '32px 28px' }}>
           <div className="eyebrow on-dark">Hour Deadlines</div>
-          <h3 style={{ fontSize: 22, marginTop: 8, marginBottom: 20, color: 'white' }}>End-of-year due dates.</h3>
+          <h3 style={{ fontSize: 22, marginTop: 8, marginBottom: 20, color: 'white' }}>Semester due dates.</h3>
           <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 16 }}>
             <div style={{ background: 'rgba(255,255,255,0.08)', borderTop: '2px solid var(--gold-bright)', padding: '20px 24px' }}>
-              <div className="eyebrow on-dark">Seniors</div>
-              <div style={{ fontFamily: "'Playfair Display', serif", fontSize: 32, color: 'white', marginTop: 8, lineHeight: 1 }}>May 1</div>
-              <div style={{ fontSize: 13, color: 'rgba(255,255,255,0.65)', marginTop: 8 }}>All hours and validation forms must be submitted by May 1.</div>
+              <div className="eyebrow on-dark">Fall Semester</div>
+              <div style={{ fontFamily: "'Playfair Display', serif", fontSize: 28, color: 'white', marginTop: 8, lineHeight: 1.1 }}>January 15, 2027</div>
+              <div style={{ fontSize: 13, color: 'rgba(255,255,255,0.65)', marginTop: 8 }}>All fall semester hours and validation forms must be submitted by January 15.</div>
             </div>
             <div style={{ background: 'rgba(255,255,255,0.08)', borderTop: '2px solid var(--gold-bright)', padding: '20px 24px' }}>
-              <div className="eyebrow on-dark">Juniors</div>
-              <div style={{ fontFamily: "'Playfair Display', serif", fontSize: 32, color: 'white', marginTop: 8, lineHeight: 1 }}>May 25</div>
-              <div style={{ fontSize: 13, color: 'rgba(255,255,255,0.65)', marginTop: 8 }}>All hours and validation forms must be submitted by May 25.</div>
+              <div className="eyebrow on-dark">Spring Semester</div>
+              <div style={{ fontFamily: "'Playfair Display', serif", fontSize: 28, color: 'rgba(255,255,255,0.45)', marginTop: 8, lineHeight: 1.1 }}>N/A</div>
+              <div style={{ fontSize: 13, color: 'rgba(255,255,255,0.65)', marginTop: 8 }}>No spring semester deadline this year.</div>
             </div>
           </div>
+        </div>
+      </section>
+
+      {/* Status Check */}
+      <section style={{ padding: '32px 32px 0' }}>
+        <div style={{ maxWidth: 1100, margin: '0 auto', background: 'var(--parchment)', border: '1px solid var(--rule)', borderTop: '3px solid var(--gold)', padding: '32px 28px', display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: 24, flexWrap: 'wrap' }}>
+          <div>
+            <div className="eyebrow" style={{ marginBottom: 8 }}>Hour Tracking</div>
+            <div style={{ fontFamily: "'Playfair Display', serif", fontSize: 20, color: 'var(--navy-ink)', marginBottom: 6 }}>Want to know how many hours you have?</div>
+            <div style={{ fontSize: 14, color: 'var(--muted)' }}>Fill out the status check form and we'll look up your logged hours on file.</div>
+          </div>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSfPfwKGfzWDCmNzUuzzWyvb9x3Eoq23e0bu8XRRgc-zVa1cVw/viewform?usp=header"
+            target="_blank" rel="noopener noreferrer" className="btn btn-navy" style={{ padding: '14px 24px', flexShrink: 0 }}>
+            Check My Hours →
+          </a>
         </div>
       </section>
     </main>

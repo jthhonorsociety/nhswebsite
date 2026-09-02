@@ -3,22 +3,22 @@
 
 var UPCOMING_EVENTS = [
   {
-    title: "Fall Induction Ceremony",
-    day: "15",
+    title: "Fall Induction Setup",
+    day: "14",
     mo: "SEPTEMBER",
-    detail: "Formal induction for new NHS members. Location: Hoggard Auditorium, 6:00 PM.",
-    spots: "",
+    detail: "Help set up chairs, programs, and decorations in the auditorium before the induction ceremony.",
+    spots: "10",
     url: "",
     url2: "",
-    dateNote: ""
+    dateNote: "4:00 PM"
   }
 ];
 
 var RECURRING_EVENTS = [
   {
-    title: "Chapter Meetings",
-    dates: "3rd Tuesday of each month",
-    detail: "Mandatory monthly meetings for all NHS members. Location: Room 214, 7:30 AM.",
+    title: "Tutoring at Roland Grise",
+    dates: "Every Tuesday & Thursday",
+    detail: "Provide after-school tutoring to middle school students at Roland Grise. Sign up for individual sessions.",
     spots: "",
     url: ""
   }
