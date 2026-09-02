@@ -1,5 +1,5 @@
 // events-data.js ? Auto-generated. Do not edit manually.
-// Last updated: 2026-08-28T11:59:39.163Z
+// Last updated: 2026-08-28T12:00:30.987Z
 
 var UPCOMING_EVENTS = [
   {
