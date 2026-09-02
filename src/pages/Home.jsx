@@ -120,7 +120,7 @@ const Home = ({ onNavigate, sections }) => (
           <div className="grid-quick-links">
             <QuickCard kicker="Service Hours" title="Sign up for chapter events"
               body="Browse upcoming chapter-sponsored service opportunities and reserve your spot."
-              cta="Open SignUpGenius" href="https://www.signupgenius.com/go/10C094BACAD2CA3F9CF8-50931733-nhsservice#/" />
+              cta="View Event List" onClick={() => onNavigate('Events')} />
             <QuickCard kicker="Validation" title="Submit completed hours"
               body="Use the electronic validation form within 48 hours of finishing an event. Photo evidence required."
               cta="Volunteer Page" onClick={() => onNavigate('Volunteer')} />

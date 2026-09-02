@@ -13,7 +13,7 @@ const TabBlock = ({ title, body, items, steps, warning, cta }) => (
         </div>
       )}
       {cta && (
-        <a href={cta.href} target="_blank" rel="noopener noreferrer" className="btn btn-navy" style={{ marginTop: 24 }}>
+        <a href={cta.href} target="_blank" rel="noopener noreferrer" className={cta.className || 'btn btn-navy'} style={{ marginTop: 24, ...(cta.style || {}) }}>
           {cta.label}
         </a>
       )}
@@ -105,24 +105,16 @@ const Volunteer = ({ onNavigate }) => {
           </div>
 
           {tab === 'Sponsored' && (
-            <>
-              <TabBlock title="Chapter-Sponsored Service"
-                body="Sponsored events are organized by the chapter and are pre-approved for service hours. View the full list of upcoming events and reserve your spot — popular events fill quickly."
-                steps={[
-                  'Open the chapter events page to view all currently open opportunities.',
-                  'Reserve your spot for any event that fits your schedule — sponsored hours are pre-approved.',
-                  'Attend the event and take a clear photograph of yourself participating.',
-                  'Submit the electronic Validation Form within 48 hours of completion.',
-                ]}
-                warning="You must still submit a validation form for every sponsored event you attend — signing up alone does not log your hours." />
-              <div style={{ marginTop: 24 }}>
-                <a href="https://docs.google.com/forms/d/e/1FAIpQLSfL0ufIuCNC8CKBPYTWfmknIhto9IcHR83bCUWk-SNVtUXY_A/viewform?usp=header"
-                  target="_blank" rel="noopener noreferrer" className="btn btn-outline"
-                  style={{ fontSize: 11, padding: '10px 18px' }}>
-                  Event Interest Form ↗
-                </a>
-              </div>
-            </>
+            <TabBlock title="Chapter-Sponsored Service"
+              body="Sponsored events are organized by the chapter and are pre-approved for service hours. View the full list of upcoming events and reserve your spot — popular events fill quickly."
+              steps={[
+                'Open the chapter events page to view all currently open opportunities.',
+                'Reserve your spot for any event that fits your schedule — sponsored hours are pre-approved.',
+                'Attend the event and take a clear photograph of yourself participating.',
+                'Submit the electronic Validation Form within 48 hours of completion.',
+              ]}
+              warning="You must still submit a validation form for every sponsored event you attend — signing up alone does not log your hours."
+              cta={{ href: 'https://docs.google.com/forms/d/e/1FAIpQLSfL0ufIuCNC8CKBPYTWfmknIhto9IcHR83bCUWk-SNVtUXY_A/viewform?usp=header', label: 'Event Interest Form ↗', className: 'btn btn-outline', style: { fontSize: 11, padding: '10px 18px' } }} />
           )}
 
           {tab === 'Unsponsored' && (
