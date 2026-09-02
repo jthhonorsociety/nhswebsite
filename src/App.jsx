@@ -40,6 +40,16 @@ const App = () => {
   return (
     <>
       <Nav active={page} onNavigate={handleNavigate} />
+      <div style={{ background: 'var(--gold)', padding: '12px 24px', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 20, flexWrap: 'wrap' }}>
+        <span style={{ fontFamily: "'Inter', sans-serif", fontSize: 13, fontWeight: 600, color: 'white', letterSpacing: '0.02em' }}>
+          📋 Want to know how many service hours you have? You no longer need to email — just fill out the form.
+        </span>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfPfwKGfzWDCmNzUuzzWyvb9x3Eoq23e0bu8XRRgc-zVa1cVw/viewform?usp=header"
+          target="_blank" rel="noopener noreferrer"
+          style={{ fontFamily: "'Inter', sans-serif", fontSize: 11, fontWeight: 700, letterSpacing: '0.14em', textTransform: 'uppercase', color: 'var(--gold)', background: 'white', padding: '8px 16px', textDecoration: 'none', whiteSpace: 'nowrap', flexShrink: 0 }}>
+          Check My Hours →
+        </a>
+      </div>
       <div key={page}>
         {page === 'Home' && <Home onNavigate={handleNavigate} sections={sections} />}
         {page === 'About' && <About />}
