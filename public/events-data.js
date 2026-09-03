@@ -1,7 +1,17 @@
 // events-data.js ? Auto-generated. Do not edit manually.
-// Last updated: 2026-08-28T19:56:31.106Z
+// Last updated: 2026-09-03T21:15:19.933Z
 
-var UPCOMING_EVENTS = [];
+var UPCOMING_EVENTS = [
+  {
+    "title": "Surfrider: Beach Clean-up",
+    "day": "27",
+    "mo": "9",
+    "detail": "Help pick up trash at Wrightsville Beach State Park.",
+    "spots": "8",
+    "url": "https://www.signupgenius.com/go/10C094BACAD2CA3F9CF8-65600380-beach",
+    "dateNote": ""
+  }
+];
 
 var RECURRING_EVENTS = [
   {
