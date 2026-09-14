@@ -1,5 +1,5 @@
 // events-data.js ? Auto-generated. Do not edit manually.
-// Last updated: 2026-09-14T20:06:14.819Z
+// Last updated: 2026-09-14T21:40:01.497Z
 
 var UPCOMING_EVENTS = [
   {
@@ -41,6 +41,20 @@ var RECURRING_EVENTS = [
     "detail": "Tasks may include but are not limited to: Setting up the race course, stretching the runners, course marshaling to guide runners in the right direction, assisting in the finish line chute, timing races, recording times, holding the finish line for the runners, and breaking down the course upon the conclusion of the race.\n\nThis is a fun and rewarding event that benefits our local community! Community service hours and signed papers are available upon request. Thank you for your interest in helping our community and fostering a healthy lifestyle for today's youth!",
     "spots": "8 spots per day",
     "url": "https://runsignup.com/Race/Volunteer/NC/Wilmington/HealthyKidsRunningSeriesWilmingtonNC"
+  },
+  {
+    "title": "Meals on Wheels Prep",
+    "dates": "9/20/2026 10/18/2026 11/15/2026 12/20/2026 1/17/2027 2/21/2027 3/21/2027\n",
+    "detail": "A volunteer opportunity for Meals on Wheels would include a group of 5 students who assist Mia in preparing and packaging meals.",
+    "spots": "5 spots per day",
+    "url": "https://www.signupgenius.com/go/10C0A4CAAA82EAAFCCF8-65751236-meals#/#%2F"
+  },
+  {
+    "title": "Meals on Wheels Delivery ",
+    "dates": "9/20/2026 10/18/2026 11/15/2026 12/20/2026 1/17/2027 2/21/2027 3/21/2027\n",
+    "detail": "A group of students will assist MC in delivering meals across our community. ",
+    "spots": "5 spots per day",
+    "url": "https://www.signupgenius.com/go/10C0A4CAAA82EAAFCCF8-65752148-meals#/"
   }
 ];
 
