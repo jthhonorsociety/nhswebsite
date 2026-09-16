@@ -40,6 +40,28 @@ const Membership = () => {
       <PageHero eyebrow="Membership" title="Application & membership."
         lede="Membership in the Viking Chapter is an honor and a year-long commitment. Below are the steps to apply and the standards every active member is expected to meet." />
 
+      <section className="pad-sm-top">
+        <div className="grid-cta" style={{ maxWidth: 1100, margin: '0 auto', background: 'var(--navy)', color: 'white', padding: '40px 32px' }}>
+          <div>
+            <div className="eyebrow on-dark">Begin Your Candidacy</div>
+            <h2 style={{ color: 'white', fontSize: 'clamp(22px, 2.5vw, 30px)', marginTop: 8 }}>New Member Application</h2>
+            <p style={{ color: 'rgba(255,255,255,0.78)', marginTop: 8, fontSize: 15 }}>
+              Applications are open now and <strong>close September 23</strong>. Submit the application form below, then use the linked instructions to screenshot your GPA for your reference forms.
+            </p>
+          </div>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: 12 }}>
+            <a href="https://forms.gle/o5PfywJmC8kfFtYj7"
+              target="_blank" rel="noopener noreferrer" className="btn btn-gold" style={{ padding: '16px 32px', textAlign: 'center' }}>
+              Application Form →
+            </a>
+            <a href="https://docs.google.com/presentation/d/12a09hdntrVKdla81NmL0ACeo1lsK1k93Jhkf2h9PVe4/edit?usp=sharing"
+              target="_blank" rel="noopener noreferrer" className="btn btn-outline-light" style={{ padding: '16px 32px', textAlign: 'center' }}>
+              GPA Screenshot Instructions ↗
+            </a>
+          </div>
+        </div>
+      </section>
+
       {/* View switcher */}
       <section style={{ padding: '40px 20px 0' }}>
         <div style={{ maxWidth: 1100, margin: '0 auto' }}>
@@ -101,22 +123,6 @@ const Membership = () => {
                   </div>
                 ))}
               </div>
-            </div>
-          </section>
-
-          <section className="pad-sm-top">
-            <div className="grid-cta" style={{ maxWidth: 1100, margin: '0 auto', background: 'var(--navy)', color: 'white', padding: '40px 32px' }}>
-              <div>
-                <div className="eyebrow on-dark">Begin Your Candidacy</div>
-                <h2 style={{ color: 'white', fontSize: 'clamp(22px, 2.5vw, 30px)', marginTop: 8 }}>New Member Application</h2>
-                <p style={{ color: 'rgba(255,255,255,0.78)', marginTop: 8, fontSize: 15 }}>
-                  Submit your digital application during the open window. Reference forms are sent automatically after the window closes.
-                </p>
-              </div>
-              <a href="https://docs.google.com/forms/d/e/1FAIpQLSdKP4upRu9vt9dAIlTWX7mMUwR_GlhCT8rmG9WxK411pRIIBw/closedform?pli=1"
-                target="_blank" rel="noopener noreferrer" className="btn btn-gold" style={{ padding: '16px 32px' }}>
-                Open Application →
-              </a>
             </div>
           </section>
         </>
