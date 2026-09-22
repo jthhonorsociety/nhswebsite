@@ -38,10 +38,9 @@ const Home = ({ onNavigate, sections }) => (
             The Viking Chapter at John T. Hoggard High School recognizes students who exemplify scholarship, service, leadership, and character, and gives them the means to lead.
           </p>
           <div style={{ display: 'flex', gap: 14, flexWrap: 'wrap' }}>
-            <a href="https://www.signupgenius.com/go/10C094BACAD2CA3F9CF8-50931733-nhsservice#/"
-              target="_blank" rel="noopener noreferrer" className="btn btn-gold">
+            <button onClick={() => onNavigate('Events')} className="btn btn-gold">
               Sign Up to Serve →
-            </a>
+            </button>
             <button onClick={() => onNavigate('Membership')} className="btn btn-outline-light">
               Membership Info
             </button>
@@ -155,11 +154,10 @@ const Home = ({ onNavigate, sections }) => (
             Reserve your hours for the semester.
           </h2>
         </div>
-        <a href="https://www.signupgenius.com/go/10C094BACAD2CA3F9CF8-50931733-nhsservice#/"
-          target="_blank" rel="noopener noreferrer"
+        <button onClick={() => onNavigate('Events')}
           className="btn btn-gold" style={{ padding: '18px 36px', fontSize: 14 }}>
           Sign Up to Serve →
-        </a>
+        </button>
       </div>
     </section>
   </main>
