@@ -10,7 +10,7 @@ import Contact from './pages/Contact';
 
 const bannerMessages = [
   {
-    text: 'Applications are now open — apply before September 23.',
+    text: 'Application deadline has been extended — apply before September 25 at 4:00 PM.',
     cta: 'Apply Now →',
     target: 'Membership',
   },

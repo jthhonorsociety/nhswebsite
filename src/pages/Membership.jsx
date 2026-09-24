@@ -46,7 +46,7 @@ const Membership = () => {
             <div className="eyebrow on-dark">Begin Your Candidacy</div>
             <h2 style={{ color: 'white', fontSize: 'clamp(22px, 2.5vw, 30px)', marginTop: 8 }}>New Member Application</h2>
             <p style={{ color: 'rgba(255,255,255,0.78)', marginTop: 8, fontSize: 15 }}>
-              Applications are open now and <strong>close September 23</strong>. Submit the application form below, then use the linked instructions to screenshot your GPA for your reference forms.
+              Applications are open now and <strong>close September 25 at 4:00 PM</strong>. Submit the application form below, then use the linked instructions to screenshot your GPA for your reference forms.
             </p>
           </div>
           <div style={{ display: 'flex', flexDirection: 'column', gap: 12 }}>
