@@ -49,12 +49,9 @@ const Membership = () => {
               The application window for this round has closed. Check back for the next semester's application period to open.
             </p>
           </div>
-          <div style={{ display: 'flex', flexDirection: 'column', gap: 12 }}>
+          <div>
             <span aria-disabled="true" className="btn" style={{ padding: '16px 32px', textAlign: 'center', background: 'rgba(255,255,255,0.12)', color: 'rgba(255,255,255,0.45)', cursor: 'not-allowed', pointerEvents: 'none' }}>
               Application Form — Closed
-            </span>
-            <span aria-disabled="true" className="btn" style={{ padding: '16px 32px', textAlign: 'center', border: '1.5px solid rgba(255,255,255,0.25)', color: 'rgba(255,255,255,0.4)', cursor: 'not-allowed', pointerEvents: 'none' }}>
-              GPA Screenshot Instructions — Closed
             </span>
           </div>
         </div>
