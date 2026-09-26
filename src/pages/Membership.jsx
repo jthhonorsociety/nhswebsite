@@ -43,21 +43,19 @@ const Membership = () => {
       <section className="pad-sm-top">
         <div className="grid-cta" style={{ maxWidth: 1100, margin: '0 auto', background: 'var(--navy)', color: 'white', padding: '40px 32px' }}>
           <div>
-            <div className="eyebrow on-dark">Begin Your Candidacy</div>
+            <div className="eyebrow on-dark">Applications Closed</div>
             <h2 style={{ color: 'white', fontSize: 'clamp(22px, 2.5vw, 30px)', marginTop: 8 }}>New Member Application</h2>
             <p style={{ color: 'rgba(255,255,255,0.78)', marginTop: 8, fontSize: 15 }}>
-              Applications are open now and <strong>close September 25 at 4:00 PM</strong>. Submit the application form below, then use the linked instructions to screenshot your GPA for your reference forms.
+              The application window for this round has closed. Check back for the next semester's application period to open.
             </p>
           </div>
           <div style={{ display: 'flex', flexDirection: 'column', gap: 12 }}>
-            <a href="https://forms.gle/o5PfywJmC8kfFtYj7"
-              target="_blank" rel="noopener noreferrer" className="btn btn-gold" style={{ padding: '16px 32px', textAlign: 'center' }}>
-              Application Form →
-            </a>
-            <a href="https://docs.google.com/presentation/d/12a09hdntrVKdla81NmL0ACeo1lsK1k93Jhkf2h9PVe4/edit?usp=sharing"
-              target="_blank" rel="noopener noreferrer" className="btn btn-outline-light" style={{ padding: '16px 32px', textAlign: 'center' }}>
-              GPA Screenshot Instructions ↗
-            </a>
+            <span aria-disabled="true" className="btn" style={{ padding: '16px 32px', textAlign: 'center', background: 'rgba(255,255,255,0.12)', color: 'rgba(255,255,255,0.45)', cursor: 'not-allowed', pointerEvents: 'none' }}>
+              Application Form — Closed
+            </span>
+            <span aria-disabled="true" className="btn" style={{ padding: '16px 32px', textAlign: 'center', border: '1.5px solid rgba(255,255,255,0.25)', color: 'rgba(255,255,255,0.4)', cursor: 'not-allowed', pointerEvents: 'none' }}>
+              GPA Screenshot Instructions — Closed
+            </span>
           </div>
         </div>
       </section>
