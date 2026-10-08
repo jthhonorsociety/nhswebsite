@@ -1,5 +1,5 @@
 // events-data.js ? Auto-generated. Do not edit manually.
-// Last updated: 2026-09-15T15:04:41.521Z
+// Last updated: 2026-10-08T13:14:46.003Z
 
 var UPCOMING_EVENTS = [
   {
@@ -9,6 +9,15 @@ var UPCOMING_EVENTS = [
     "detail": "Help pick up trash at Wrightsville Beach State Park.",
     "spots": "8",
     "url": "https://www.signupgenius.com/go/10C094BACAD2CA3F9CF8-65600380-beach",
+    "dateNote": ""
+  },
+  {
+    "title": "Alderman Fall Festival",
+    "day": "16",
+    "mo": "OCTOBER",
+    "detail": "Roles include roles running the games, face painting, helping at the pie-in-the-face booth, the dunk booth, and the cake walk, selling food and spirit wear, and more.",
+    "spots": "Thu Jan 15 2026 00:00:00 GMT-0500 (Eastern Standard Time)",
+    "url": "https://www.signupgenius.com/go/10C094BACAD2CA3F9CF8-66299913-alderman#/",
     "dateNote": ""
   }
 ];
